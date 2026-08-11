@@ -1,0 +1,10 @@
+device:
+  layer: rpi4
+
+image:
+  name: pobar-os-tv
+  root_part_size: 300%
+
+layer:
+  base: debian-trixie-arm64-multi-minbase
+  app: pobar-os
